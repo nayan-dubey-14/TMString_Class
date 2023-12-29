@@ -9,7 +9,7 @@ int size;
 public:
 TMString();
 TMString(const char *ptr);
-virtual ~TMString();
+~TMString();
 TMString & operator=(const TMString &other);
 TMString & operator=(const char *ptr);
 TMString operator+(const TMString &other);
